@@ -5,9 +5,9 @@ import { Fragment, useState } from "react";
 import { Combobox, Transition } from "@headlessui/react";
 
 import { manufacturers } from "@/constants";
-import { SearchManufacturerProps } from "@/types";
+import { SearchManuFacturerProps } from "@/types";
 
-const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManufacturerProps) => {
+const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacturerProps) => {
     const [query, setQuery] = useState("");
 
     const filteredManufacturers =
